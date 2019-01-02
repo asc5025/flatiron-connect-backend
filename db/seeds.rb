@@ -1,0 +1,36 @@
+# This file should contain all the record creation needed to seed the database with its default values.
+# The data can then be loaded with the rails db:seed command (or created alongside the database with db:setup).
+#
+# Examples:
+#
+#   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
+#   Character.create(name: 'Luke', movie: movies.first)
+
+User.create(firstname: "Albert", lastname:"Chun", email: "alchun@gmail.com", company: "Barbell Inc.", industry: "Health, Wellness and Fitness", position: "CEO", img_url: "https://i.imgur.com/h7BvZ39.png")
+User.create(firstname: "Jason", lastname:"Decker", email: "DecktheHalls@fsp.com", company: "Lifting State", industry: "Construction", position: "CTO", img_url: "https://i.imgur.com/a890sGY.png")
+User.create(firstname: "Jeff", lastname:"Hwang", email: "Hwang000@mail.com", company: "Flatiron Coffee", industry: "Food and Beverages", position: "Software Developer", img_url: "https://media.licdn.com/dms/image/C4D03AQFExQihn40nhg/profile-displayphoto-shrink_200_200/0?e=1548892800&v=beta&t=hb9NsfneEYOkOaxHzRpuGn3ZbA2Rk4iHCPr-Af7XY44")
+User.create(firstname: "Steve", lastname:"Beef", email: "Beefy@beef.com", company: "Slim Jim", industry: "Fashion", position: "Lead Software Developer", img_url: "https://i.imgur.com/wDfcGBh.png")
+User.create(firstname: "Evans", lastname:"Wangtron", email: "wangsta@gmail.com", company: "Pants not Tight", industry: "Entertainment", position: "Engineering Manager", img_url: "https://flatiron-v3-production.imgix.net/Evans-Wang.jpg?h=240&w=240&facepad=2&fit=facearea&ixlib=imgixjs-3.3.0")
+User.create(firstname: "Laura", lastname:"Snax", email: "carbs@food.com", company: "Cereal", industry: "Arts and Crafts", position: "Sr. Frontend Developer", img_url: "https://i.imgur.com/tN9lgIe.png")
+User.create(firstname: "Andrew", lastname:"ChromeBoi", email: "boi@chrome.com", company: "Pasta", industry: "Education", position: "Chrome and Pasta Developer", img_url: "https://i.imgur.com/WIavz1P.png")
+User.create(firstname: "Yu", lastname:"Li", email: "YuLi@dev.com", company: "NYU", industry: "Healthcare", position: "Backend Developer", img_url: "https://i.imgur.com/CPhNx7R.png")
+User.create(firstname: "Vera", lastname:"Protopopova", email: "veravera@mail.com", company: "Vimeo", industry: "Entertainment", position: "Full Stack Developer", img_url: "https://i.imgur.com/0FnKUwG.png")
+User.create(firstname: "Tirem", lastname:"Bareno-Sosna", email: "Tirem@flatgrill.com", company: "Peloton", industry: "Health, Wellness and Fitness", position: "AR Developer", img_url: "https://i.imgur.com/WzZJuAS.png")
+User.create(firstname: "Sydney", lastname:"Grant", email: "Syd@dakid.com", company: "Bloomingdales", industry: "Consumer Goods", position: "VP Engineering", img_url: "https://i.imgur.com/tzzfS9W.png")
+User.create(firstname: "Sarah", lastname:"Pai", email: "lovesomepai@karaoke.com", company: "NaN", industry: "Events Services", position: "CTO", img_url: "https://i.imgur.com/Pavzl6h.png")
+User.create(firstname: "Sam", lastname:"Turac", email: "samT@swag.com", company: "Michaels", industry: "Arts and Crafts", position: "React Master", img_url: "https://i.imgur.com/EZfsuIS.png")
+User.create(firstname: "Austin", lastname:"Luft", email: "austinL@gmail.com", company: "Gucci", industry: "Fashion", position: "Lead Developer", img_url: "https://i.imgur.com/OrBmuA4.png")
+User.create(firstname: "Leslie", lastname:"Turis", email: "tmoney@less.com", company: "Hersheys", industry: "Food and Beverages", position: "Full Stack Savage", img_url: "https://i.imgur.com/yc9SZAq.png")
+User.create(firstname: "Yoan", lastname:"Ante", email: "anteup@yoan.com", company: "Haribo", industry: "Food and Beverages", position: "Ruby King", img_url: "https://i.imgur.com/3ELQeyn.png")
+User.create(firstname: "Alex", lastname:"Troung", email: "alexT@foodie.com", company: "Momofuku Fuku", industry: "Food and Beverages", position: "Engineering Manager", img_url: "https://i.imgur.com/L1pBTu6.png")
+User.create(firstname: "Alex", lastname:"Forsell", email: "notforsale@af.com", company: "Hustle", industry: "Financial Services", position: "React Native Boss", img_url: "https://i.imgur.com/UBx13XP.png")
+User.create(firstname: "Ali", lastname:"Reubenstone", email: "aliR@stone.com", company: "Flatiron Health", industry: "Healthcare", position: "Full Stack Developer", img_url: "https://i.imgur.com/a3s6tMZ.png")
+User.create(firstname: "Cara", lastname:"Morelli", email: "cara@vr.com", company: "VR World", industry: "Computer Games", position: "Lead VR Developer", img_url: "https://i.imgur.com/POp8O5e.png")
+User.create(firstname: "Chett", lastname:"Tiller", email: "chett@hard.com", company: "Wonder Bread", industry: "Food and Beverages", position: "Sr. PBJ Engineer", img_url: "https://i.imgur.com/ugr5cHb.png")
+User.create(firstname: "Eric", lastname:"Klimowich", email: "erict@marvel.com", company: "Marvel", industry: "Entertainment", position: "3D Animation Developer", img_url: "https://i.imgur.com/axaWkxH.png")
+User.create(firstname: "Frida", lastname:"Casas", email: "casasf@mail.com", company: "CASAS", industry: "Environmental Services", position: "Founder", img_url: "https://i.imgur.com/oGSsrIy.png")
+User.create(firstname: "Ian", lastname:"Hollander", email: "ianH@westworld.com", company: "HBO", industry: "Entertainment", position: "Lead Dev", img_url: "https://i.imgur.com/T97aJRq.png")
+User.create(firstname: "Saajid", lastname:"Khan", email: "ballhard@bbb.com", company: "NBA", industry: "Sports", position: "Rails MVP", img_url: "https://i.imgur.com/EOqjjzI.png")
+User.create(firstname: "Mike", lastname:"Wu", email: "mikeyw@hustle.com", company: "Steam", industry: "Computer Games", position: "React Developer", img_url: "https://i.imgur.com/9pIePlt.png")
+User.create(firstname: "MinHee", lastname:"Park", email: "minh@park.com", company: "NYCBOE", industry: "Education", position: "Systems Engineer", img_url: "https://i.imgur.com/WCSAn0M.png")
+User.create(firstname: "Phong", lastname:"Nguyen", email: "phong@savage.com", company: "InBev", industry: "Food and Beverages", position: "JS Wizard", img_url: "https://i.imgur.com/Dz1VSTu.png")
